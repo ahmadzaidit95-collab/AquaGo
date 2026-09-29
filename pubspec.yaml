@@ -1,0 +1,51 @@
+﻿name: drinkwater_app
+description: Water Reminder App - AquaGo
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: 0.20.2
+  shared_preferences: ^2.2.3
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+  google_mobile_ads: ^5.1.0
+  permission_handler: ^11.3.1
+  provider: ^6.1.5+1
+  share_plus: ^13.3.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.4
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/icon/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#EAF3FC"
+  image: assets/icon/icon.png
+  android_12:
+    image: assets/icon/icon.png
+    color: "#EAF3FC"
+  android: true
+  ios: false
