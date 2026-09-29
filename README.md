@@ -8,34 +8,34 @@ AquaGo helps users track their daily water intake, set personalized water goals,
 
 ### Light Mode
 
-Home:
-screenshots/android/home.png
+#### Home
+![Home](screenshots/android/home.png)
 
-History:
-screenshots/android/history.png
+#### History
+![History](screenshots/android/history.png)
 
-Reminders:
-screenshots/android/reminders.png
+#### Reminders
+![Reminders](screenshots/android/reminders.png)
 
-Settings:
-screenshots/android/settings.png
+#### Settings
+![Settings](screenshots/android/settings.png)
 
-Language:
-screenshots/android/language.png
+#### Language
+![Language](screenshots/android/language.png)
 
-Drawer:
-screenshots/android/drawer.png
+#### Drawer
+![Drawer](screenshots/android/drawer.png)
 
 ### Dark Mode
 
-Home:
-screenshots/android/home-dark.png
+#### Home
+![Home Dark](screenshots/android/home-dark.png)
 
-History:
-screenshots/android/history-dark.png
+#### History
+![History Dark](screenshots/android/history-dark.png)
 
-Reminders:
-screenshots/android/reminders-dark.png
+#### Reminders
+![Reminders Dark](screenshots/android/reminders-dark.png)
 
 ## Features
 
@@ -87,54 +87,14 @@ android/
 
 ## Getting Started
 
-Requirements:
+### Requirements
 
 - Flutter SDK
 - Dart SDK
 - Android Studio or VS Code
 - Android device or emulator
 
-Install dependencies:
+### Install Dependencies
 
+```bash
 flutter pub get
-
-Run the application:
-
-flutter run
-
-## Build APK
-
-flutter build apk --release
-
-The APK will be generated inside:
-
-build/app/outputs/flutter-apk/
-
-## Supported Languages
-
-- English
-- Arabic
-- French
-- Spanish
-
-## Design
-
-AquaGo focuses on simplicity, easy navigation, clean UI, responsive layouts, comfortable colors, and Light and Dark themes.
-
-## Privacy and Data
-
-AquaGo stores user settings and water tracking data locally on the device.
-
-The application does not require an account to use the main water tracking features.
-
-## Developer
-
-Ahmed Zaid
-
-Flutter Developer
-
-## Project
-
-AquaGo is a Flutter water reminder application designed to help users stay hydrated and track their daily water consumption.
-
-AquaGo - Stay Hydrated, Stay Healthy.
